@@ -1,0 +1,23 @@
+#header-text-carousel .bg {
+    background-image: url('../images/bg-52.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+}
+#desc-text-2 .bg {
+    background-image: url('../images/bg-73.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    opacity:1;
+}#price-2col .bg-wrap {
+    background-color: #f4f5f6;
+}
+#action-text-btn-2 .bg {
+    background-image: url('../images/map.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 50% auto;
+    opacity:0.4;
+}

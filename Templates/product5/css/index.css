@@ -1,0 +1,15 @@
+#testimonial-3col .bg-wrap {
+    background-color: #F2F0ED;
+}#benefits-single-counter .bg {
+    background-image: url('../images/map.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 0.5;
+}
+#footer-logo-share .bg {
+    background-image: url('../images/bg-sign.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    opacity: 0.075;
+}

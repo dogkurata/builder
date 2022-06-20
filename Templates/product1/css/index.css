@@ -1,0 +1,22 @@
+#header-text-img .bg {
+    background-image: url('../images/bg-34.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:0.075;
+}#benefits-4col-6 .bg-wrap {
+    background-color: #f4f5f6;
+}#desc-img-text-4 .bg-wrap {
+    background-color: #F4F5F6;
+}
+#testimonial-3col-3 .bg-wrap {
+    background-color: #A2AAB1;
+}#blog-3col-2 .bg-wrap {
+    background-color: #F4F5F6;
+}
+#footer-logo-share .bg {
+    background-image: url('../images/bg-sign.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    opacity: 0.075;
+}

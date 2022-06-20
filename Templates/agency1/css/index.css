@@ -1,0 +1,12 @@
+#header-text-3 .bg {
+    background-image: url('../images/bg-60.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:1;
+}
+#sep-center-1 .bg-wrap {
+    background-color: rgba(255, 255, 255, 0);
+}#team-4col .bg-wrap {
+    background-color: #F4F5F6;
+}

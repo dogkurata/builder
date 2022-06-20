@@ -1,0 +1,21 @@
+#header-timer .bg-wrap {
+    background-color: #000;
+}
+
+#header-timer .bg {
+    background-image: url('../images/bg-14.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity:0.85;
+}#benefits-2col-7 .bg-wrap {
+    background-color: #f4f5f6;
+}#testimonial-2col .bg {
+    background-image: url('../images/bg-27.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:0.2;
+}#price-4col .bg-wrap {
+    background-color: #f4f5f6;
+}

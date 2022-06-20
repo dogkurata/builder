@@ -1,0 +1,31 @@
+#nav-logo-icon .bg-wrap {
+    background-color: rgba(255,255,255,0);
+}
+#header-text-img-2 .bg-wrap {
+    background-color: #E2EBF2;
+}
+#desc-halfbg-text-img-text-2 .bg {
+    background-image: url('../images/bg-sign-secondary.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto;
+    opacity: 0.2;
+}#panel-logo-menu .bg-wrap {
+    background-color: rgba(255,255,255,0.95);
+}
+#desc-text-4 .bg {
+    background-image: url('../images/bg-75.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    opacity:1;
+}#benefits-4col-8 .bg-wrap {
+    background-color: #F2F0ED;
+}
+#action-halfbg-text-btn .bg-wrap {
+    background-color: #debcce;
+}
+
+#testimonial-3col-4 .bg-wrap {
+    background-color: #f4f5f6;
+}

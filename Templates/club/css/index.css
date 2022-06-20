@@ -1,0 +1,35 @@
+#header-img-text .bg {
+    background-image: url('../images/bg-20.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.5;
+}#benefits-3col-12 .bg-wrap {
+    background-color: #f4f5f6;
+}
+#action-text-timer .bg-wrap {
+    background-color: #9a2b2b;
+}
+
+#action-text-timer .bg {
+    background-image: url('../images/bg-71.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity:0.075;
+}
+
+#team-4col-2 .bg-wrap {
+    background-color: #333;
+}
+#media-text-icon .bg {
+    background-image: url('../images/bg-71.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity:0.25;
+}#action-img-text .bg-wrap {
+    background-color: #ffbd00;
+}#alert-text-img-btn .bg-wrap {
+    background-color: rgba (68,68,68,0.95);
+}

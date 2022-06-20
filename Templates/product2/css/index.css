@@ -1,0 +1,21 @@
+#header-img-modal .bg-wrap {
+    background-color: #44ADC7;
+}
+
+#header-img-modal .bg {
+    background-image: url('../images/bg-69.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.4;
+}
+#benefits-4col-4 .bg-wrap {
+    background-color: #f4f5f6;
+}#desc-halfbg-text-6 .bg-wrap {
+    background-color: #7ac8da;
+}#price-3col .bg-wrap {
+    background-color: #F4F5F6;
+}
+#footer-social-text .bg-wrap {
+    background-color: #F4F5F6;
+}

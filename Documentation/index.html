@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weber - Multipurpose HTML Template Documentation v2.0</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/iconfont.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-offset="100" data-target="#navbar">
+    <section id="info">
+        <div class="container">
+            <img class="logo" src="assets/images/icon.png" srcset="assets/images/icon@2x.png 2x" alt="Logo">
+            <H1><strong>Multipurpose HTML Template</strong> with Page Builder</H1>
+            <p>Documentation v2.0</p>
+            <p>Created by MultiFour: June 2018</p>
+            <p><a href="http://support.multifour.com/" target="_blank">support.multifour.com</a></p>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+            <div class="row">
+
+
+                <div id="content" class="col-md-9" role="main">
+
+                    <h2 id="structure">Structure</h2>
+                    <p>Here you can find the detailed structure of the downloaded archive and short descriptions of the included folders.</p>
+                    <ul class="folder-list">
+                        <li><b>Documentation</b> &ndash; folder contains the documentation to this work.</li>
+                        <li class="open-folder"><b>Builder</b> &ndash; tool that helps you build your own pages in a minutes. Easy to install and use.
+                            <ul>
+                                <li><b>include</b> &ndash; contains main builder files.</li>
+                                <li><b>css</b> &ndash; contains custom css.</li>
+                                <li><b>sections</b> &ndash; contains all sections.</li>
+                                <li><b>fonts</b> &ndash; contains the fonts used in templates.</li>
+                                <li><b>default_font</b> &ndash; contains the fonts used in the builder.</li>
+                                <li><b>images</b> &ndash; contains images used in the builder.</li>
+                                <li><b>video</b> &ndash; contains video used in the builder.</li>
+                                <li><b>scripts</b> &ndash; contains the PHP scripts.</li>
+                                <li><b>js</b> &ndash; contains the javascript files.</li>
+                                <li><b>tmp</b> &ndash; contains temporary files.</li>
+                                <li class="file"><b>order.xml</b> &ndash; in this file you can set wished order of the sections in the builder.</li>
+                                <li class="file"><b>ajax.php, index.php</b> &ndash; files with functions (not recommended to change).</li>
+                                <li class="file"><b>main.html</b> &ndash; main file.</li>
+                                <li class="file"><b>index.php</b> &ndash; index page.</li>
+                            </ul>
+                        </li>
+                        <li class="open-folder"><b>Templates</b> &ndash; contains the ready templates (demo pages).
+                            <ul>
+                                <li><b>service</b> &ndash; contains page for online/offline services.</li>
+                                <li class="open-folder"><b>agency</b> &ndash; contains page for agencies and portfolios.</li>
+                                <ul>
+                                    <li><b>css</b> &ndash; here you will find theme style sheets.</li>
+                                    <li><b>fonts</b> &ndash; folder contains fonts of the page.</li>
+                                    <li><b>images</b> &ndash; contains images of the page.</li>
+                                    <li><b>scripts</b> &ndash; contains the PHP scripts.</li>
+                                    <li><b>js</b> &ndash; contains the javascript files.</li>
+                                    <li><b>video</b> &ndash; contains videos of the page.</li>
+                                    <li class="file"><b>index.html</b> &ndash; it's the main template file. It can be open with any browser on your computer.</li>
+                                </ul>
+                                <li><b>app</b> &ndash; contains page for applications.</li>
+                                <li><b>...</b></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h2 id="uploading">Installation</h2>
+                    <p>Simply upload it to your <strong>online server</strong>. To do it you can use the online FTP manager of your hosting (almost all the hosting companys has FAQ/support pages where they explain how to upload files via their own FTP managers) or use the desktop version (<a href="https://filezilla-project.org/download.php" target="_blank">FileZilla</a> for example).</p>
+
+                    <p>Also the builder can work locally. To make it happens you need install the <strong>local server</strong> on your computer. The best choice for both platforms (Mac and Windows) is the local MAMP server. Here you can find detailed <a target="_blank" href="https://documentation.mamp.info/en/MAMP-Mac/Installation/">installation documentatio</a>n or see a video tutorial: <a href="https://www.youtube.com/watch?v=I6sTPp779mA" target="_blank">Mac</a> or <a href="https://www.youtube.com/watch?v=nEeHhQZ4cF0" target="_blank">Windows</a>. </p>
+
+                    <p>After installation, check MAMP ports, they should be the same as in the screenshot below.</p>
+                    <img class="screen" src="assets/images/mamp-settings.png" srcset="assets/images/mamp-settings@2x.png 2x" alt="MAMP settings" width="847px">
+
+                    <span class="note">
+                        <strong>Requires for correct builder work:</strong>
+                        <ul>
+                            <li>PHP v5.3 (not less).</li>
+                            <li>PHP ZIP Extension.</li>
+                            <li>Apache webserver (Windows servers will probably work, but are not supported).</li>
+                            <li>Don't forget about the permissions. For folders it's <strong>755</strong> and for files <strong>644</strong>.</li>
+                        </ul>
+                    </span>
+                    
+                    
+                    <h2 id="demo-content">Demo Content</h2>
+                    <p>You can download demo content for Weber ready templates and Page Builder <a href="http://multifour.com/projects/weber/weber-demo-content.zip" target="_blank"><strong>here</strong></a>.</p>
+                    <p>For updating simply upload/replace new assets instead of existing ones.</p>
+
+
+
+                    <h2 id="builder">The Page builder.</h2>
+
+                    <p><strong>Supra</strong> (the Page Builder) it's a tool for creating stunning web pages in a minutes. It is designed so that you can create pages without touching a single line of code. The main interface of Supra consists of 3 modes: sections mode, edit mode, project mode. Let's look at this in detail.</p>
+
+
+                    <h3 id="sections-mode">Sections mode.</h3>
+                    <p>In this mode, we can add sections, delete, copy and configure them. To enable this mode - select the top icon in the left panel. To display the section options, just point to it in the work area and choose wished action.</p>
+                    <img class="screen" src="assets/images/sections-mode.png" srcset="assets/images/sections-mode@2x.png 2x" alt="Sections mode" width="847px">
+
+
+                    <h3 id="edit-mode">Edit mode.</h3>
+                    <p>In this mode, we edit the elements globally (changing the parameters for all the like elements) and locally (changing one specific element).</p>
+                    <br>
+                    <p><strong>Global editing.</strong></p>
+                    <p>For global editing, just select this mode (the second icon is on top of the panel) and select the element you want to edit from the list (see screen below).</p>
+                    <img class="screen" src="assets/images/global-editing.png" srcset="assets/images/global-editing@2x.png 2x" alt="Global editing" style="margin-top: 0;">
+                    <br>
+                    <br>
+                    <p><strong>Local editing.</strong></p>
+                    <p>For local editing, simply click on the element you want to edit and select the desired action from the appeared control buttons. You can change the format of the element (for example, H1 - H4), add animation, work with style settings and prepare classes, copy and delete. If the element contains text, then a text editor will appear on the double-click on it. Some specific elements have special options (for example: images, forms, counters, video and map iframes).</p>
+                    <img class="screen" src="assets/images/local-editing.png" srcset="assets/images/local-editing@2x.png 2x" alt="Global editing" style="margin-top: 0;">
+
+
+
+                    <h3 id="project-mode">Project mode.</h3>
+                    <p>Here you can customize the pages, copy them, delete or add new ones. You can also manage the project: save, load, create new one or export the finished project in html format.</p>
+                    <img class="screen" src="assets/images/project-mode.png" srcset="assets/images/project-mode@2x.png 2x" alt="Project mode">
+
+
+
+
+
+                    <h3 id="create-section">Create new section</h3>
+                    <p>The best way to create a section - find a similar (in already existing) as a base and copy it. All sections should have a unique name/ID. So, you need to change: section ID in the html code, folder name, thumbnail name (in the section folder). All of them should be named the same and don't forget to change IDs in style.css (if it exists).</p>
+                    <img class="screen" src="assets/images/create-section-steps.jpg" srcset="assets/images/create-section-steps@2x.jpg 2x" alt="create new section">
+                    <p>Congrats! Now you have a platform for your new section. To modify the html code of the section use index.html (located in the section folder). If you want change/add CSS code - use style.css (located in the section folder). For javascript - use custom.js (located in the section folder). If there is no style.css or custom.js - you have to create them yourself.</p>
+                    <p>You can change the order of sections (and groups) in order.xml (located in the builder root folder).</p>
+
+
+                    <h3 id="add-font">Add new font (image or icon).</h3>
+                    <p>In the new version we have greatly simplified and improved for you the process of adding resources to the builder. Now all you need is just add a folder with a new font to the font folder (../Pagebuilder/fonts/).</p>
+                    <br>
+                    <span class="note">
+                        <strong>Font files must be named this way "fontname-fonttype"</strong> (Example: Montserrat-BlackItalic.ttf).
+                    </span>
+                    <br>
+                    <br>
+                    <p>For images use a similar trick, just add an image (or image folder) to the main images folder (../Pagebuilder/images/gallery/).</p>
+
+
+
+
+                    <h2 id="shortcodes">Shortcodes</h2>
+                    <p>This set is based on <a href="http://getbootstrap.com/docs/4.0/getting-started/introduction/" target="_blank">Bootstrap 4</a>, so many useful components and utilities (<a href="http://getbootstrap.com/docs/4.0/layout/grid/" target="_blank">grid systeem</a>, <a href="http://getbootstrap.com/docs/4.0/utilities/flex/" target="_blank">flex classes</a> and others) emigrated from there (but not all, some of them were removed for optimization). So, let's look at some of them in more detail.</p>
+
+
+
+                    <h3>Margins &amp; Paddings</h3>
+                    <p>The logic for constructing the class name: Parameter - resolution - value. For example "mb-md-100", which means margin-bottom(mb) since the medium resolution(md) is 100px. The same logic for paddings (and not only).</p>
+
+                    <p><strong>Range of padding values:</strong> 0, 10, 20, 30, 50, 75, 100, 150, 200, 250, 300, 350, 400</p>
+                    <p><strong>Range of margin values:</strong>-300, -200, -100, -50, -30, 0, 10, 20, 30, 50, 75, 100, 150, 200, 250, 300</p>
+
+                    <pre class="cpp" style="font-family:monospace;"><span style="color: #000080;">&lt;</span>section id<span style="color: #000080;">=</span><span style="color: #FF0000;">&quot;section-name&quot;</span> <span style="color: #0000ff;">class</span><span style="color: #000080;">=</span><span style="color: #FF0000;">&quot;pt-75 pb-75 pt-md-150 pb-md-150 dark&quot;</span><span style="color: #000080;">&gt;</span>
+    <span style="color: #000080;">&lt;</span><span style="color: #0000dd;">div</span> <span style="color: #0000ff;">class</span><span style="color: #000080;">=</span><span style="color: #FF0000;">&quot;container&quot;</span><span style="color: #000080;">&gt;</span>
+        <span style="color: #000080;">&lt;</span><span style="color: #0000dd;">div</span> <span style="color: #0000ff;">class</span><span style="color: #000080;">=</span><span style="color: #FF0000;">&quot;row&quot;</span><span style="color: #000080;">&gt;</span>
+            <span style="color: #000080;">&lt;</span><span style="color: #0000dd;">div</span> <span style="color: #0000ff;">class</span><span style="color: #000080;">=</span><span style="color: #FF0000;">&quot;col-md-12&quot;</span><span style="color: #000080;">&gt;</span>
+                SECTION CONTENT
+            <span style="color: #000080;">&lt;</span><span style="color: #000040;">/</span><span style="color: #0000dd;">div</span><span style="color: #000080;">&gt;</span>
+        <span style="color: #000080;">&lt;</span><span style="color: #000040;">/</span><span style="color: #0000dd;">div</span><span style="color: #000080;">&gt;</span>
+    <span style="color: #000080;">&lt;</span><span style="color: #000040;">/</span><span style="color: #0000dd;">div</span><span style="color: #000080;">&gt;</span>
+    <span style="color: #000080;">&lt;</span><span style="color: #0000dd;">div</span> <span style="color: #0000ff;">class</span><span style="color: #000080;">=</span><span style="color: #FF0000;">&quot;bg-wrap&quot;</span><span style="color: #000080;">&gt;&lt;</span><span style="color: #000040;">/</span><span style="color: #0000dd;">div</span><span style="color: #000080;">&gt;</span>
+<span style="color: #000080;">&lt;</span><span style="color: #000040;">/</span>section<span style="color: #000080;">&gt;</span></pre>
+
+
+
+
+                    <h3 id="skins">Color skins</h3>
+                    <p>The kit has 2 preset color skins, light and dark. To install them, just add to element class "light" or "dark".</p>
+
+                    <pre class="cpp" style="font-family:monospace;"><span style="color: #000080;">&lt;</span>div <span style="color: #0000ff;">class</span><span style="color: #000080;">=</span><span style="color: #FF0000;">&quot;col-12 dark&quot;</span><span style="color: #000080;">&gt;&lt;</span><span style="color: #000040;">/</span>div<span style="color: #000080;">&gt;</span></pre>
+
+
+                    <h3 id="blocks">Block styles</h3>
+                    <p>List of common classes for blocks:</p>
+                    <ul>
+                        <li><b>padding</b>, <b>padding-x2</b>, <b>padding-x3</b>, <b>padding-x4</b> &ndash; add all sides padding to the block.</li>
+                        <li><b>margin</b>, <b>margin-x2</b>, <b>margin-x3</b>, <b>margin-x4</b> &ndash; add all sides margin to the block.</li>
+                        <li><b>shadow</b> &ndash; add shadow.</li>
+                        <li><b>bg-default</b> &ndash; set background color to default.</li>
+                        <li><b>border</b>, <b>border-x2</b> &ndash; add borders to the block.</li>
+                        <li><b>rounded</b>, <b>rounded-circle</b> &ndash; rounded block corners ("rounded-circle" better use on the square shape blocks).</li>
+                    </ul>
+                    <pre class="cpp" style="font-family:monospace;"><span style="color: #000080;">&lt;</span>div <span style="color: #0000ff;">class</span><span style="color: #000080;">=</span><span style="color: #FF0000;">&quot;bg-default padding-x2 shadow&quot;</span><span style="color: #000080;">&gt;&lt;</span><span style="color: #000040;">/</span>div<span style="color: #000080;">&gt;</span></pre>
+
+
+                    <h3 id="typography">Typography</h3>
+                    <p>List of common classes for typography:</p>
+                    <ul>
+                        <li><b>smalll</b> &ndash; sets text size 80%.</li>
+                        <li><b>lead</b> &ndash; sets text size 120%.</li>
+                        <li><b>text-left, text-center, text-right, text-justify</b> &ndash; text align.</li>
+                        <li><b>text-primary</b> &ndash; sets text color to primary.</li>
+                        <li><b>text-secondary</b> &ndash; sets text color to secondary.</li>
+                    </ul>
+                    <br>
+                    <p>List with visual effects classes:</p>
+                    <ul>
+                        <li><b>fx-text-shadow</b> &ndash; simple text shadow.</li>
+                        <li><b>fx-text-thin-shadow</b> &ndash; thin/narrow text shadow.</li>
+                        <li><b>fx-text-hard-shadow</b> &ndash; text shadow without blur.</li>
+                        <li><b>fx-text-pushed-shadow</b> &ndash; text shadow with pushed effect.</li>
+                        <li><b>fx-text-isometric-shadow</b> &ndash; text shadow from flat design.</li>
+                        <li><b>fx-text-glow</b> &ndash; animated glow(white) effect.</li>
+                        <li><b>fx-text-3d</b> &ndash; 3D text effect.</li>
+                        <li><b>fx-text-isometric</b> &ndash; isometric text effect.</li>
+                        <li><b>fx-text-anaglyphic</b> &ndash; anaglyphic text effect.</li>
+                    </ul>
+
+                    <pre class="cpp" style="font-family:monospace;"><span style="color: #000080;">&lt;</span>p <span style="color: #0000ff;">class</span><span style="color: #000080;">=</span><span style="color: #FF0000;">&quot;lead text-primary fx-text-shadow&quot;</span><span style="color: #000080;">&gt;&lt;</span><span style="color: #000040;">/</span>p<span style="color: #000080;">&gt;</span></pre>
+
+
+                    <h3 id="buttons">Buttons</h3>
+                    <p>List of common classes for buttons:</p>
+                    <ul>
+                        <li><b>btn-sm</b> &ndash; sets button size 80%.</li>
+                        <li><b>btn-lg</b> &ndash; sets button size 120%.</li>
+                        <li><b>btn-block</b> &ndash; sets button width 100%.</li>
+                    </ul>
+                    <br>
+                    <p>List with visual effects classes:</p>
+                    <ul>
+                        <li><b>fx-btn-3d</b> &ndash; 3D button effect.</li>
+                        <li><b>fx-btn-pill</b> &ndash; rounded button corners.</li>
+                        <li><b>fx-btn-zoom</b> &ndash; zoom effect on hover.</li>
+                        <li><b>fx-btn-up</b> &ndash; up effect on hover.</li>
+                        <li><b>fx-btn-shadow</b> &ndash; apply shadow to button.</li>
+                        <li><b>fx-btn-hard-shadow</b> &ndash; apply not blured shadow to button.</li>
+                        <li><b>fx-btn-hidden-icon</b> &ndash; show icon (if it exist).</li>
+                        <li><b>fx-btn-blick</b> &ndash; adds blick animation.</li>
+                        <li><b>fx-btn-wave</b> &ndash; adds wave animation.</li>
+                        <li><b>fx-btn-glow</b> &ndash; adds glow animation.</li>
+                    </ul>
+                    <br>
+                    <p><a href="http://getbootstrap.com/docs/4.0/components/buttons/" target="_blank">Color classes for buttons same as in bootstrap4</a>.</p>
+                    <br>
+                    <pre class="cpp" style="font-family:monospace;"><span style="color: #000080;">&lt;</span>a <span style="color: #0000ff;">class</span><span style="color: #000080;">=</span><span style="color: #FF0000;">&quot;btn btn-lg btn-primary fx-btn-3d fx-btn-pill&quot;</span><span style="color: #000080;">&gt;</span>Button<span style="color: #000080;">&lt;</span><span style="color: #000040;">/</span>a<span style="color: #000080;">&gt;</span></pre>
+
+
+                    <h3 id="forms">Forms</h3>
+                    <p>To optimize and simplify your work with forms we highly recommend you use our drag and drop form constructor which is included to Supra. It saves you a lot of time and nerves. You can connect popular mail services (Mailchimp, MailerLite, Activecampaing, GetResponse, CampaingMonitor) or use a secure SMTP method. Anyway, if you decided adjust form from the ready page this part will be helpful.</p>
+
+                    <p>Open scripts/request.php file and replace "ENTER YOUR EMAIL ADDRESS" to your email address and "ENTER YOUR SUBJECT" to the letter subject. </p>
+
+                    <pre style="margin: 0; line-height: 125%"><span style="color: #008000; font-weight: bold">if</span>($_POST[<span style="color: #BA2121">&#39;id&#39;</span>] <span style="color: #666666">===</span> <span style="color: #BA2121">&quot;contact-center-form-form&quot;</span>) {
+    
+	$mailto <span style="color: #666666">=</span> <span style="color: #BA2121">&quot;ENTER YOUR EMAIL ADDRESS&quot;</span>;
+
+	$data_array <span style="color: #666666">=</span> json_decode($_POST[<span style="color: #BA2121">&#39;data&#39;</span>]);
+	$message <span style="color: #666666">=</span> <span style="color: #BA2121">&quot;&quot;</span>;
+	foreach ($data_array as $key <span style="color: #666666">=&gt;</span> $value) {
+		<span style="color: #008000; font-weight: bold">if</span> (isset($value<span style="color: #666666">-&gt;</span>name) <span style="color: #666666">&amp;&amp;</span> $value<span style="color: #666666">-&gt;</span>name <span style="color: #666666">!==</span> <span style="color: #BA2121">&quot;&quot;</span>) {
+			$message .<span style="color: #666666">=</span> $value<span style="color: #666666">-&gt;</span>name.<span style="color: #BA2121">&#39;: &#39;</span>.$value<span style="color: #666666">-&gt;</span>value.<span style="color: #BA2121">&#39;&lt;br&gt;&#39;</span>;
+		}
+	}
+
+	$subject <span style="color: #666666">=</span> <span style="color: #BA2121">&quot;ENTER YOUR SUBJECT&quot;</span>;
+</pre> <br>
+
+                    <span class="note">
+                        The Form ID in the script (for example:"contact-center-form-form") must match with the Form ID on the page.
+                    </span>
+
+
+
+
+
+
+                    <h2 id="credits">Credits</h2>
+                    <p>The following materials were used in order to create this work (we’d like to say that we are much obliged to their developers):</p>
+                    <br>
+                    <ul class="list-unstyled">
+                        <li><strong>jQuery </strong><a href="http://jquery.com/" target="_blank">http://jquery.com/</a></li>
+                        <li><strong>Bootstrap</strong> <a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com</a></li>
+                        <li><strong>jQuery Validation</strong> <a href="http://jqueryvalidation.org/" target="_blank">http://jqueryvalidation.org</a></li>
+                        <li><strong>OWL Carousel</strong> <a href="http://www.owlcarousel.owlgraphic.com" target="_blank">http://www.owlcarousel.owlgraphic.com</a></li>
+                        <li><strong>Magnific Popup</strong> <a href="http://dimsemenov.com/plugins/magnific-popup/" target="_blank">http://dimsemenov.com/plugins/magnific-popup/</a></li>
+                        <li><strong>VIDE</strong> <a href="http://vodkabears.github.io/vide/" target="_blank">http://vodkabears.github.io/vide/</a></li>
+                        <li><strong>Placeholders.js</strong> <a href="http://jamesallardice.github.io/Placeholders.js/" target="_blank">http://jamesallardice.github.io/Placeholders.js/</a></li>
+                        <li><strong>Unsplash</strong> <a href="https://unsplash.com" target="_blank">https://unsplash.com</a></li>
+                        <li><strong>SketchAppSources</strong> <a href="http://www.sketchappsources.com/" target="_blank">http://www.sketchappsources.com</a></li>
+                        <li><strong>Goodshare</strong> <a href="http://goodshare.ru" target="_blank">http://goodshare.ru</a></li>
+                        <li><strong>Videezy</strong> <a href="https://www.videezy.com" target="_blank">https://www.videezy.com</a></li>
+                        <li><strong>AOS animation</strong> <a href="https://michalsnik.github.io/aos/" target="_blank">https://michalsnik.github.io/aos/</a></li>
+                        <li><strong>Codemirror</strong> <a href="https://codemirror.net/" target="_blank">https://codemirror.net/</a></li>
+                        <li><strong>Rellax</strong> <a href="https://dixonandmoe.com/rellax/" target="_blank">https://dixonandmoe.com/rellax/</a></li>
+                    </ul>
+
+
+
+                    <div class="banner-block">
+                        <h2>Once again, thank you so much for purchasing this item</h2>
+                        <p>If you liked it, please <a href="http://themeforest.net/downloads" target="_blank">rate our work.</a></p>
+                        <a class="icons-line" href="http://themeforest.net/downloads" target="_blank"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></a>
+                        <!--                        <p>MultiFour Team.</p>-->
+                    </div>
+
+                </div>
+
+                <div id="aside-menu" class="col-md-3 hidden-sm hidden-xs" role="complementary">
+                    <nav id="navbar" class="hidden-print" data-spy="affix" data-offset-top="600">
+                        <ul class="nav" role="tablist">
+                            <li><a href="#structure">Structure</a></li>
+                            <li><a href="#uploading">Installation</a></li>
+                            <li><a href="#demo-content">Demo Content</a></li>
+                            <li><a href="#builder">The Page Builder</a>
+                                <ul class="nav">
+                                    <li><a href="#sections-mode">Sections mode</a></li>
+                                    <li><a href="#edit-mode">Edit mode</a></li>
+                                    <li><a href="#project-mode">Project mode</a></li>
+                                    <li><a href="#create-section">Create new section</a></li>
+                                    <li><a href="#add-font">Add new font/image</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#shortcodes">Shortcodes</a>
+                                <ul class="nav">
+                                    <li><a href="#sections">Sections</a></li>
+                                    <li><a href="#skins">Color skins</a></li>
+                                    <li><a href="#blocks">Blocks</a></li>
+                                    <li><a href="#typography">Typography</a></li>
+                                    <li><a href="#buttons">Buttons</a></li>
+                                    <li><a href="#forms">Forms</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#credits">Credits</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/scripts/bootstrap.js"></script>
+
+</body>
+
+</html>

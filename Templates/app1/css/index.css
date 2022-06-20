@@ -1,0 +1,17 @@
+#header-img-slogan-btn-img .bg-wrap {
+    background-color: #F2F0ED;
+}
+
+#header-img-slogan-btn-img .bg {
+    background-image: url('../images/bg-pattern-3-primary.png');
+    background-size: 50px 50px;
+    background-repeat: repeat;
+    background-position: right top;
+    opacity: 0.33;
+}
+#benefits-3col-8 .bg-wrap {
+    background-color: #F2F0ED;
+}
+#gallery-4col-carousel .bg-wrap {
+    background-color: #F2F0ED;
+}

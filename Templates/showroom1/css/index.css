@@ -1,0 +1,31 @@
+
+#nav-logo-list .bg-wrap {
+	background: rgba(222, 216, 208, 0);
+}#header-text-4 .bg {
+    background-image: url('../images/bg-12.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    opacity:1;
+}#text-2col .bg {
+    background-image: url('../images/bg-sign.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    opacity: 0.1;
+}
+#testimonial-single-4 .bg-wrap {
+    background-color: #AF9F8C;
+}#action-text .bg {
+    background-image: url('../images/bg-61.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+}
+#footer-logo-text-2 .bg {
+    background-image: url('../images/bg-sign-primary.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto;
+    opacity:0.05;
+}

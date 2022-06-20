@@ -1,0 +1,35 @@
+#text-1col .bg {
+    background-image: url('../images/bg-sign-primary.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    opacity: 0.2;
+}
+#desc-img-text-5 .bg-wrap{
+    background-color: #F2F0ED;
+}
+#desc-text-6 .bg {
+    background-image: url('../images/bg-49.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    opacity:1;
+}
+#testimonial-3col-2 .bg {
+    background-image: url('../images/bg-66.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:0.75;
+}#blog-text .bg {
+    background-image: url('../images/bg-38.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity:0.2;
+}#footer-logo-text-2 .bg {
+    background-image: url('../images/bg-sign-primary.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto;
+    opacity:0.05;
+}

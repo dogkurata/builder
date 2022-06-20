@@ -1,0 +1,23 @@
+#header-form .bg {
+    background-image: url('../images/bg-82.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    opacity:0.75;
+}#gallery-3col-5 .bg-wrap {
+    background-color: #f4f5f6;
+}
+/*
+#testimonial-single-carousel .bg {
+    background-image: url(../images/bg-pattern-3-alt.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-size: 200px auto;
+    opacity: 0.25;
+}*/
+#desc-img-text-4 .bg-wrap {
+    background-color: #F4F5F6;
+}
+#footer-text-map .bg-wrap {
+    background-color: #F4F5F6;
+}

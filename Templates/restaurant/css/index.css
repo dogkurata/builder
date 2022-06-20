@@ -1,0 +1,40 @@
+#header-textbox-3 .bg-wrap {
+    background-color: #111;
+}
+
+#header-textbox-3 .bg {
+    background-image: url('../images/bg-76.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:0.75;
+}#desc-text-3 .bg-wrap {
+    background-color: #c5b9aa;
+}
+
+#desc-text-3 .bg {
+    background-image: url('../images/bg-76.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.03;
+}
+#desc-items-list-3 .bg {
+    background-image: url('../images/bg-77.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:0.05;
+}#contact-text-form .bg {
+	background-image: url('../images/bg-3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	opacity: 0.15;
+}#footer-logo-text-2 .bg {
+    background-image: url('../images/bg-sign-primary.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto;
+    opacity:0.05;
+}

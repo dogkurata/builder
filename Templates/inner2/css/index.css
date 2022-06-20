@@ -1,0 +1,20 @@
+#nav-offcanvas-left .bg-wrap{
+    background: rgba(238, 238, 238, 0);
+}#header-text-7 .bg {
+    background-image: url('../images/bg-72.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:0.2;
+}#blog-breadcrumb .bg-wrap {
+	background: #f4f5f6;
+}
+#blog-paginator-2 .bg-wrap {
+    background-color: #f4f5f6;
+}
+#blog-4col-carousel .bg-wrap {
+    background-color: #f4f5f6;
+}
+#panel-login .bg-wrap {
+    background-color: rgba(255,255,255,0.95);
+}

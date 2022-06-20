@@ -1,0 +1,33 @@
+#header-carousel-2 .bg {
+    background-image: url('../images/bg-67.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:1;
+}#desc-text .bg {
+    background-image: url('../images/bg-68.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:0.35;
+}#team-2col-2 .bg {
+    background-image: url(../images/bg-pattern-3-secondary.png);
+    background-repeat: repeat;
+    background-size: 40px 40px;
+    opacity: 0.5;
+}
+/*
+#testimonial-single-carousel .bg {
+    background-image: url(../images/bg-pattern-3-alt.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-size: 200px auto;
+    opacity: 0.25;
+}*/
+#clients-5col-2 .bg {
+    background-image: url('../images/bg-67.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.25;
+}
