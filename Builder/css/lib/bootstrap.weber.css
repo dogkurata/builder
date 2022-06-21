@@ -3967,7 +3967,7 @@ a.page-link:hover {
     height: 1rem;
     overflow: hidden;
     font-size: 0.75rem;
-    background-color: #eee;
+    background-color: rgb(224, 240, 77);
     border-radius: 0.25rem;
 }
 
@@ -3981,7 +3981,7 @@ a.page-link:hover {
     -ms-flex-pack: center;
     -webkit-box-pack: center;
     justify-content: center;
-    color: #fff;
+    color: rgb(242, 242, 94);
     background-color: #007bff;
 }
 

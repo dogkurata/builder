@@ -27,12 +27,12 @@
 <script src="js/lib/jquery-2.1.4.min.js"></script>
 <style id="builder-style"></style>
 <div class="supra-preloader">
-	<img src="images/logo.png" srcset="images/logo@2x.png 2x" alt="suprapagebuilder"/>
+	<img src="images/logo.png" srcset="images/logo@2x.png 2x" alt="builder"/>
 	<div class="progress-bar-s">
 		<div class="progress"><div class="load"></div></div>
 	</div>
 	<div class="rights">
-		<p>&#169; 2018 <a href="http://multifour.com/" target="_blank">Multifour.com</a><br/>SUPRA 5.2.1</p>
+		<p>&#169; 2022 <a href="http://multifour.com/" target="_blank">underbar</a><br/>5builder Signage 5.2.1</p>
 	</div>
 </div>
 <aside class="left supra black"></aside>

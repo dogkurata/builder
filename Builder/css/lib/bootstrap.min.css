@@ -4576,7 +4576,7 @@ tbody.collapse.show {
     height: 1rem;
     overflow: hidden;
     font-size: .75rem;
-    background-color: #e9ecef;
+    background-color: #e8f715;
     border-radius: .25rem
 }
 
@@ -4590,7 +4590,7 @@ tbody.collapse.show {
     -ms-flex-pack: center;
     -webkit-box-pack: center;
     justify-content: center;
-    color: #fff;
+    color: #e8f715;
     background-color: #007bff
 }
 
